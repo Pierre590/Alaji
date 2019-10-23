@@ -15,6 +15,15 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-
-    
+}
+.page-header {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: -internal-root-color;
+}
+.page-header img {
+    width: 100%;
 }
