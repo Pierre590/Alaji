@@ -1,48 +1,101 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="utf-8">
-            <link rel="stylesheet" href="css/bootstrap.min.css"/>
-        </head>
-        <body>
-            
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Alaji</a>
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-                
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">A propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>                          
-                    </ul>
-                </div>
-            </nav>
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="jumbotron">
-                        <h1 class="display-4">Développeur web</h1>
-                        <p class="lead">Un développeur web est un informaticien spécialisé dans la programmation ou expressément impliqué dans le développement des applications du World Wide Web, ou des applications qui sont exécutées à partir d'un serveur web sur un navigateur web et qui utilisent le protocole HTTP comme vecteur de transmission de l'information.</p>
-                        
-                        <p></p>
-                        <a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a>
-                    </div>
-                </div>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Alaji</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">A propos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Développeur web</h1>
+                <p class="lead">Un développeur web est un informaticien spécialisé dans la programmation ou expressément
+                    impliqué dans le développement des applications du World Wide Web, ou des applications qui sont
+                    exécutées à partir d'un serveur web sur un navigateur web et qui utilisent le protocole HTTP comme
+                    vecteur de transmission de l'information.</p>
+
+                <p></p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a>
             </div>
-            
-            <footer class="py-5 bg-dark">
-                <div class="container text-center text-white">
-                    Copyright &copy; Pierre
+
+            <div class="row">
+                <div class="col-lg-3 col-md6">
+                        <div class="card">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA8FBMVEX////kTSbxZSnr6+sAAADkSR7pdVzrWSjIyMj39/fkRBTr8PDwXRbxYiPnp5r4u6f3sZnyek/pzcfkPwbwVwDj4+NVVVXnnI3lZEn97enAwMB6enq6urqnp6flak4iIiJqamrjRRjoVCcWFhYuLi7iOADuXyjxXxzqfGX1xLvvnY330cr76ufwpZfytarmXj364NvmhnP60MPq4N71l3ftk4LS0tLmWDT0vLH0iWT84tnoubHsjXrpyMLr5ePybDOSkpJERESUlJRQUFA/Pz9xcXHqURT1lnXscEz2oofq19T5wrL3tJ/zgVXs+vzydEEZODdUAAALQElEQVR4nO2dbVvaSBSGRyEqCag1tMp2S5u2FBRFUSlWse2+tK61Xf//v9mEGEjgnEMOOTNkuXi+rM0FE+6dMHlyXgalePq9GOnF6NjoUPF54hXTepl8+fv4yC+Tw6gXo3/+xvyM2SRKWPw6Hvhj7PASERYLo0HeLynhaJBX8aPLRBh9+lLi4FIRFsMh3iwx4dfg0Fby2HIRDt/zbqkJ/1DqTwB6iQiLvxcmj+SEsPgu0sRHKz1pfAP4NjoGEb5+MXkkL4SAnsdfOiZ8mRiCHGFFqF8rwphWhMV37+Pvff16+QiL8Sem4taYd3kI40+9L9QyzmH879KSEo4s9yuFE24Z5IsTvn8eKQOh+hb+9ZciCP96E9ef5giBj8wnfHr0LVCESb35nxGGA75SS0wYkPw9/GNpCUvR25aWUL36Gv53eQkjrQhXhEIaE74DPjJC+C0xBEY4McwfCyIsbEX6ODo2OrRVir/0+ehwAjz2coUcHw7zcQvWR7XSSiuttNJKK6200kor/Q91XN/Is+rHmQlLDSvPapRmI8ySvZZn2dkBVX/REKT6AoR1a9EUhKy6AGEr14QtAcKBt2gMQt5AgPAkz0uNfSJA2Mk1YUeA8NBdNAYh91CAsJ1rwrYA4XGuCbObNqVquSasCRAqWcK3mxn1NkEoAag8UcLN9YzajI/miRCeipoaUULrVIRwI8eEGyKEsrYtM2H8eyhi2pQ6yjHhkQihrG3LTBgfTMS0Sds2UUIR0yZt22QJJUybUmc5JjwTIaw18kT4IT5YQ8S0qVKuVpoEoS0QSwwkCZiZMGHa1mQA1YGkqZEktA6ECEVtmyihjGlTqpsnwrilsbpChKK2TZJQyLQptS25mGYljI9lbwsRXuWW8EqIkLBtls3V9zJXFZRQyLRRts3qbnPV2eHqUwUllDFtlG2ztx2u+Ke/b8YAdZg2Xyihd+QUmOL7rMQcJgmlAHFCq2uA8DFOuKmHEAP0TYUBwvI6RihlS4k0sHVqgLCKEYokgEPhts3WT1hLEGoxbUr1PIywoZ/wGiX0emKEeBrYvdBO2E4QJi4giQRwKNy2uT+0Ez6UUUIp06bUOWpq3FvuZcom3EEJhWKJgXDbZt9oJ9xtooRSpk2pY8q26Sa8QwkbEgngUCV0Dr197YS/UNPmCkXaAmGAc9g29qd6RAnlLI1SfdTUsG0bm/ALamkkqvYiofFE60A3YQm1pYKmjare6zMB2YSEaZOo2ouE2zbvs2ZCI6aNbdskn/HbuKWRM21UGhiybU5nH9fJLk93aJRGKAEcCk8DQ7bN6bkeKm6sjYi0yZk2rm1z9okAa7Z4aYJQzrSRhIBtc6jahpwS4vFEKNrm3BB58UyEyUiboGmj4okDgHDPDKEkoELv+KBt+6GLUFOkLRBu28BoG1HbIEYolgAOhds2CyL0NBFqM21U9Z4NADqnBgiFqvYi4WlgyLY5RCeRHKFUAjgU07YRnUSZCOMDiZo2vm3z9BOKmjYqDQzaNqKTSI5QKgEcSs62iRE2JE0b1XQBRdso25aFMBlpE0sAD1XyUEIo2kbYNjFCT9SWUvHEFs+2ZSHUaNqIpgsw2nah53uoodViLLx6D4y2eWh7+WaFpQRhwrRJVe1FGuBpYADQqR9g+ucZSxWUUNa0UbatAcUTpWJtRCxR1rRR1XvMJClvBTzHY4lSVXuRiDQwL0nKI8QTwMKmjWvbxAh3cUJZ08a1bWKE9yYSwKGIaBsvScojJGraZE2bYkbbxAifGajai+RhhKBtkyJE06Nrljghbtt4tW08wiZGKG7ayKYLfYQ1PAEsbdqo6j2LA8gkNFG1FwkPvdis2jYWoaEEcCgp28YiNGja5Gwbi9BI1V4kvHqPZ9tYhD/NmTY528YiNGjaqE1ceLaNRXiH17TJVe1FqqHfQzDaJkOIV+3Z4raUSpJybJvDIsRbLeRNGxVPPNhj6KyGCDonatpE9tqbFN4NbLkMVTFB58RbLWQTwKGE9t5D4qWVL8ApDVXtRSIyZhKEv4BTGjVtYnvvIYTNS+CURlotxhLaxAUjvAdOadS0iW3ighCWfwKnNGraxDZxwQih8Cdh2nQQ4k0XIoTnwCnv8P5YedMWbJmMf2woycQjrF4Dp8RNm2zVXiR8penXp4UZBIwQ8jS4aZPYIHla6JbJVv3f6RzTBfK1xa5SaFISr9Bu2qgtk/uA9f7MI1wHTmio1WIswrZBTxHIS2HCyiNwQsOmjareg5ouHCSEjBAyTZt0AjgUr+kCq96DCZt3wAmJSJsO00ZW7+0BhMhFjRAyTZts1V4konoPqm1DLmqYEDRtRvpj42JW7yFNFwjhA3BCw6aNXb2HBMkRQsi0XaKmTUOkLRBRvdeDqvc4hKBpwxPAwlV7IxEb8QCEt/DLEcKZpi1JqAdQeSgho+kCIYTOh0faZDZInhYvDXwBP4swCPFIm3wCOBSeBvYAQodDCNlSwrTJJ4BD4batMQ1YcBgrTT5MG7/pwrWBN0wTVprVKmRp8EibeNVeJJ5tKzgXN4N+w564tCcIm+Xq4/05+MRu3LRxmy4KwxrMH52W5cYpY4SVcnX98gG9tRk3bXNW7zlOYW+77rqelSD06cqfdqD7/EgGq/YizZsG9qeycNs7Db+Wm8EXr1x+tkvSBbrEbal8AjhUluq9IHJz011r2N/L1S/352lcl8mqvSfhm7ik2+Ik+FpuD/Av3oRw0ya1QfK0MEDGFieMOm+8ak+61WIsieq91P/7SxWMUEt6NBSz6SIb4QJMG1m9l3qLk9SExyar9iLxbFtGwra5VouxJKr3UhMardqLJFG9l5oQN21aEsChJJouUhMSO9HpMm20bfs3JWJqQqNVe5GINHB/cPPZSQOZkvD8PnHDN2Pa6DSwZzcO9vcKMylTEF7//FUtJ2ZQd6vFWHQq37Ldte7NhUNSziCsPVyuVye2Tpo0bToJScAnysbp/i0xlRTh9e7j5ORBhG81Eqb65VzLc61W5wcylRhhbedTs9qcmjzI0uhJAIdK/UsX/lT2e7fQ2gMRlvx1Bbg0MUJ9po1XvedPpb2xPTWVU4TXP5+Vy+jkAYRaqvYicav3/LWn303eRhKEtYe7Cj15T4oPqikBHGqeX7rwXDd+GxkTtne/IOvKDEJ9pm3u6r34bSQkPN75VMbXFZrQhXKNUsrwA2XRbcS/NM/vm6kuTYxQn2nLWr03vI2cBOsKi27dnGmjom2pKb/zJg8glNwgeVrZq9nn2vnDUKQtELplsjlC0Q2Sp5X9J9iyE+o0bRJNF3MRGqjai5S96WIewuTuSTpNm0TTBZfwQ/KHuDWbNommCxbhJN2QUFcCOFT2povUhB824QG0JYBDZf9d2XSE0ORFhDpNmxnCDzhdIOG99iZFRdskCKfWFYBQpy1Vs6Jt2QhnTF5EqBcwuzFFCLF1ZVo6OoDjymzbIMLZl2YMUF8CONRGw8vGOEmYfvKGfHZDXwL4Se2j06lKrnkJU6wrcXmuWz/Ru5I+qXbVst15KUeE6daVSEGop3eo9dl3QmcnQSXXvIS8yQsir62OnuJ1UqXD3hp/KjdZ68qw2f/0RF9KdKaOO61xUZ64/HXF6h5qvsOnkL/2uK48pH9p1reNrCtpVDvs2plW2AkNEzttk+tKGvlrjz3X2jNF51qtq8VfmqBK7d5atqn03MZC15U0Op4se2ZMXqM/MHrLm1/tk1PmzdK/5bkbndysK2lUOxykvmCDpM1Rzi9NWGedDXvWzTJYV7p5XVfSqEQadX9dMWSl9co36sDaEyTAzVppvfJvlo3x2uPTuQux0nrlG/V+MJWLttJ6dXzV9S9Ns+vKf9Gqu1qBshpqAAAAAElFTkSuQmCC" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">HTML</h5>
+                                  <p class="card-text">L'HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web. C'est un langage permettant d'écrire de l'hypertexte, d'où son nom.</p>
+                                  <a href="#" class="btn btn-primary">Lien vers la doc</a>
+                                </div>
+                              </div>
                 </div>
-            </footer>
-        </body>
-    </html> 
+
+                <div class="col-lg-3 col-md6">
+                        <div class="card">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">CSS</h5>
+                                  <p class="card-text">Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C).</p>
+                                  <a href="#" class="btn btn-primary">Lien vers la doc</a>
+                                </div>
+                              </div>
+                </div>
+
+                <div class="col-lg-3 col-md6">
+                        <div class="card">
+                                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">Java Script</h5>
+                                  <p class="card-text">JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives mais aussi pour les serveurs avec l'utilisation de Node.js.</p>
+                                  <a href="#" class="btn btn-primary">Lien vers la doc</a>
+                                </div>
+                              </div>
+                </div>
+
+                <div class="col-lg-3 col-md6">
+                        <div class="card">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">PHP</h5>
+                                  <p class="card-text">PHP: Hypertext Preprocessor, plus connu sous son sigle PHP, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. PHP est un langage impératif orienté objet.</p>
+                                  <a href="#" class="btn btn-primary">Lien vers la doc</a>
+                                </div>
+                              </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="py-5 bg-dark">
+        <div class="container text-center text-white">
+            Copyright &copy; Pierre
+        </div>
+    </footer>
+</body>
+
+</html>
